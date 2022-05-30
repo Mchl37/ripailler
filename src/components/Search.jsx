@@ -28,11 +28,12 @@ function Search() {
 }
 
 const FormStyle = styled.form`
-    margin: 0 20rem;
+    display: flex;
+    justify-content: center;
 
     div {
         position: relative;
-        width: 100%;
+        width: 80%;
     }
 
     input {
